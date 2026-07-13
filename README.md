@@ -29,7 +29,7 @@ Para clonar, abrir y modificar este proyecto en tu entorno local:
 1. Disponer de **Visual Studio 2022** con la carga de trabajo de *.NET Desktop Development* (Desarrollo de escritorio de .NET) instalada.
 2. Clonar este repositorio:
    ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO_ESCRITORIO.git
+git clone https://github.com/dhlago/appPeluqueria-desktop/
 
 
 ## 🎓 *Este proyecto fue desarrollado como parte del Trabajo de Fin de Grado (TFG) para el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM).*

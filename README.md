@@ -32,4 +32,11 @@ Para clonar, abrir y modificar este proyecto en tu entorno local:
 git clone https://github.com/dhlago/appPeluqueria-desktop/
 
 
-## 🎓 *Este proyecto fue desarrollado como parte del Trabajo de Fin de Grado (TFG) para el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM).*
+## 🔗 Enlaces de la Suite Completa
+
+💈 Repositorio del Backend: https://github.com/dhlago/AppPeluqueria-backend
+
+📱 Repositorio de la Aplicación de Móvil: https://github.com/dhlago/appPeluqueria-mobile
+
+
+## 🎓 *Este proyecto fue desarrollado como el TFG para el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM).*

@@ -1,0 +1,157 @@
+using ProyectoPelu;
+
+namespace appPeluqueriaDesktop
+{
+    partial class info_Servicio
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+                components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(info_Servicio));
+            card = new Panel();
+            lblTitulo = new Label();
+
+            lblNombre = new Label();
+            txtNombreServicio = new RoundedTextBox();
+
+            lblCategoria = new Label();
+            txtCategoria = new RoundedTextBox();
+
+            lblDuracion = new Label();
+            txtDuracion = new RoundedTextBox();
+
+            lblPrecio = new Label();
+            txtPrecio = new RoundedTextBox();
+
+            lblDescripcion = new Label();
+            txtDescripcion = new RoundedTextBox();
+
+            btnGuardar = new Button();
+
+            SuspendLayout();
+
+            // Form
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(900, 500);
+            Text = "Nuevo Servicio";
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            StartPosition = FormStartPosition.CenterScreen;
+            BackColor = Color.FromArgb(245, 247, 250);
+            Load += Form5_Load;
+
+            // card
+            card.BackColor = Color.White;
+            card.BorderStyle = BorderStyle.FixedSingle;
+            card.Size = new Size(820, 420);
+            card.Location = new Point(40, 40);
+            card.Padding = new Padding(30);
+
+            // lblTitulo
+            lblTitulo.Text = "Detalles del Servicio";
+            lblTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            lblTitulo.ForeColor = Color.FromArgb(0, 102, 204);
+            lblTitulo.Dock = DockStyle.Top;
+            lblTitulo.Height = 50;
+            lblTitulo.TextAlign = ContentAlignment.MiddleCenter;
+
+            // Nombre
+            lblNombre.Text = "Nombre:";
+            lblNombre.Font = new Font("Segoe UI", 11F);
+            lblNombre.Location = new Point(60, 80);
+            txtNombreServicio.Font = new Font("Segoe UI", 11F);
+            txtNombreServicio.Location = new Point(30, 105);
+            txtNombreServicio.Size = new Size(350, 36);
+
+            // Categoría
+            lblCategoria.Text = "Categoría:";
+            lblCategoria.Font = new Font("Segoe UI", 11F);
+            lblCategoria.Location = new Point(60, 150);
+            txtCategoria.Font = new Font("Segoe UI", 11F);
+            txtCategoria.Location = new Point(30, 175);
+            txtCategoria.Size = new Size(350, 36);
+
+            // Duración
+            lblDuracion.Text = "Duración:";
+            lblDuracion.Font = new Font("Segoe UI", 11F);
+            lblDuracion.Location = new Point(460, 80);
+            txtDuracion.Font = new Font("Segoe UI", 11F);
+            txtDuracion.Location = new Point(430, 105);
+            txtDuracion.Size = new Size(350, 36);
+
+            // Precio
+            lblPrecio.Text = "Precio:";
+            lblPrecio.Font = new Font("Segoe UI", 11F);
+            lblPrecio.Location = new Point(460, 150);
+            txtPrecio.Font = new Font("Segoe UI", 11F);
+            txtPrecio.Location = new Point(430, 175);
+            txtPrecio.Size = new Size(350, 36);
+
+            // Descripción (campo central)
+            lblDescripcion.Text = "Descripción:";
+            lblDescripcion.Font = new Font("Segoe UI", 11F);
+            lblDescripcion.Location = new Point(60, 230);
+            txtDescripcion.Font = new Font("Segoe UI", 11F);
+            txtDescripcion.Location = new Point(30, 255);
+            txtDescripcion.Size = new Size(750, 60);
+            txtDescripcion.Multiline = true;
+            txtDescripcion.ScrollBars = ScrollBars.Vertical;
+
+            // Botón Guardar
+            btnGuardar.Text = "Guardar";
+            btnGuardar.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            btnGuardar.BackColor = Color.FromArgb(0, 102, 204);
+            btnGuardar.ForeColor = Color.White;
+            btnGuardar.FlatStyle = FlatStyle.Flat;
+            btnGuardar.FlatAppearance.BorderSize = 0;
+            btnGuardar.Size = new Size(150, 40);
+            btnGuardar.Location = new Point(335, 340);
+
+            // Añadir controles
+            card.Controls.Add(lblTitulo);
+            card.Controls.Add(lblNombre);
+            card.Controls.Add(txtNombreServicio);
+            card.Controls.Add(lblCategoria);
+            card.Controls.Add(txtCategoria);
+            card.Controls.Add(lblDuracion);
+            card.Controls.Add(txtDuracion);
+            card.Controls.Add(lblPrecio);
+            card.Controls.Add(txtPrecio);
+            card.Controls.Add(lblDescripcion);
+            card.Controls.Add(txtDescripcion);
+            card.Controls.Add(btnGuardar);
+
+            Controls.Add(card);
+
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel card;
+        private Label lblTitulo;
+        private Label lblNombre;
+        private RoundedTextBox txtNombreServicio;
+        private Label lblCategoria;
+        private RoundedTextBox txtCategoria;
+        private Label lblDuracion;
+        private RoundedTextBox txtDuracion;
+        private Label lblPrecio;
+        private RoundedTextBox txtPrecio;
+        private Label lblDescripcion;
+        private RoundedTextBox txtDescripcion;
+        private Button btnGuardar;
+    }
+}
